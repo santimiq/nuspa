@@ -1,0 +1,202 @@
+@import "../../../styles/mixin.scss";
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.fade-out {
+	opacity: 0;
+	animation-name: fadeOutOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	animation-duration: 0.5s;
+}
+
+.fade-in-fast {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.3s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOutOpacity {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.border-right{
+    border-right: solid $color-green 2px;
+    border-radius: 0px;
+}
+
+.redes-link{
+    transition: all 0.5s;
+    img{
+        transition: all 0.5s;
+    }
+    &:hover{
+        img{
+            height: 33px;
+        }
+    }
+}
+
+.active{
+    color: $color-green!important;
+    transition: all 0.5s;
+    @include font-size(14px);
+    &:hover{
+        text-decoration: none;
+        color: $color-green;
+    }
+    &:focus{
+        outline-width: 0!important;
+    }
+}
+
+.inactive{
+    color: $color-dark;
+    transition: all 0.5s;
+    @include font-size(13px);
+    &:hover{
+        text-decoration: none;
+        color: $color-dark;
+    }
+    &:focus{
+        outline-width: 0!important;
+    }
+}
+
+.link-menu{
+    @include font-size(13px)
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none!important;
+}
+
+.menu-text{
+    font-size: 14px;
+}
+
+.menu-responsive{
+    position: fixed;
+    padding: 1rem;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: $color-white;
+    transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+    overflow: hidden;
+    box-sizing: border-box;
+    @include font-size(20px);
+    .active{
+        color: $color-green!important;
+        font-weight: bold;
+        padding-bottom: 0.5rem;
+        border-bottom: solid $color-green;
+        &:hover{
+            text-decoration: none;
+        }
+        &:focus{
+            outline-width: 0!important;
+        }
+    }
+    .inactive{
+        color: $color-green;
+        &:hover{
+            text-decoration: none;
+        }
+        &:focus{
+            outline-width: 0!important;
+        }
+    }
+    transition: 2s;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    left: 0;
+    z-index: 16;
+    background-color: white;
+}
+
+.top-header-responsive{
+    position: fixed;
+    z-index: 5;
+    top: 1rem;
+    right: 1rem;
+    font-size: 30px;
+    transition: all 0.2s;
+    &:hover{
+        font-size: 35px;
+    }
+}
+
+.top-header-image-responsive{
+    transition: all 0.5s;
+    position: fixed;
+    z-index: 3;
+    top: 3rem;
+    left: 0;
+    &.hidden{
+        display: none;
+    }
+}
+
+.hide-menu{
+    transition: all 0.5s;
+}
+
+
+
+.bottom-header-responsive{
+    position: fixed;
+    z-index: 3;
+    bottom: 4rem;
+    left: 0;
+}
+
+.logo-header{
+    max-height: 60px;
+}
+
+.telefono-text{
+    @include font-size(14px);
+    a{
+        color: $color-dark;
+        transition: all 0.5s;
+        &:hover{
+            color: $color-green;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+}
+
+.header{
+    border-bottom: rgba(190, 190, 190, 0.5) solid 1px;
+}

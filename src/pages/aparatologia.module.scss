@@ -1,0 +1,15 @@
+@import '../styles/mixin.scss';
+
+.container-titulo{
+    bottom: 5%;
+    right: 25%;
+    color: $color-green;
+}
+@include for-tablet {
+    .text-section{
+        font-size: 40px !important;
+    }
+    .container-titulo{
+        right: 15% !important;
+    }
+}

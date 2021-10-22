@@ -1,0 +1,281 @@
+{
+    "corporales": {
+        "post-operatorio":{
+            "parrafos-inicio": [
+                "Potencializa los efectos de tu cirugía con este tratamiento. Incluye <b>RADIOFRECUENCIA SLIMFIT®</b> que ayudará a moldear tu figura y evitar fibrosis, con <b>LASSER ULTRA SILK®</b> se regenerará tejido y mejorará la cicatrización, con <b>TERMOELECTROFIT®</b> ayudaremos a tonificar y con <b>PRESOTERAPIA DRENANTE</b> desinflamaremos y desintoxicaremos tu cuerpo a través de drenajes linfáticos.",
+                "Se realiza en 10 visitas al spa, una por semana y con duración de 1 hora."
+            ],
+            "preguntas-respuestas":[
+                {
+                    "pregunta": "¿Cuánto tiempo después de mi cirugía se puede realizar este tratamiento?",
+                    "respuesta": "Nosotros recomendamos que consultes al médico que te realizó la intervención para que te recomiende cuándo comenzar tu tratamiento."
+                }
+            ],
+            "listado": [],
+            "parrafos-final":[]
+        },
+        "reafirmante-corporal":{
+            "parrafos-inicio": [
+                "Este tratamiento se recomienda a personas que han perdido elasticidad y firmeza en la piel y ayuda a regenerar a nivel dérmico. Incluye <b>RADIOFRECUENCIA SLIMFIT®, ELECTROFIT®, CARBOXTONIC® y nutrición.</b>",
+                "Se realiza en 10 visitas al spa, una por semana y con duración de 1 hora."
+            ],
+            "preguntas-respuestas":[
+                {
+                    "pregunta": "¿Qué resultados se pueden obtener con este paquete?",
+                    "respuesta": "Es indispensable que acudas a una cita de diagnóstico para que nuestras terapeutas te evalúen y te digan de manera realista qué resultados se podrían obtener."
+                }
+            ],
+            "listado": [],
+            "parrafos-final":[]
+        },
+        "anticelulitico":{
+            "parrafos-inicio": [
+                "<b>Despídete de esa molesta piel de naranja</b> con lo último en tecnología médico-cosmética. "
+            ],
+            "preguntas-respuestas":[
+                {
+                    "pregunta": "Se elimina por completo la celulitis?",
+                    "respuesta": "Se disminuye hasta en un 80% dependiendo la cantidad de celulitis y el grado en que se encuentre."
+                }
+            ],
+            "listado": [
+                "Este tratamiento incluye <b>LIPOCAVITACIÓN</b> que ayudará a degradar grasa localizada, <b>PRESOTERAPIA DRENANTE</b> que favorecerá el drenaje linfático, <b>ELECTROFIT®</b> que ayudará a tonificar y <b>MESOTERAPIA ANTICELL</b> que, con sus activos, ayudará a mejorar el aspecto de tu piel.",
+                "Tratamiento apto para personas con celulitis edematosa, dura y blanda.",
+                "Este tratamiento se realiza en <b>10 visitas de 1 hora</b> al spa, una por semana."
+            ],
+            "parrafos-final":[]
+        },
+        "reductivo-de-brazos":{
+            "parrafos-inicio": [
+                "<b>Este paquete ayudará a que te sientas muy cómodo con tus brazos.</b>"
+            ],
+            "preguntas-respuestas":[
+            ],
+            "listado": [
+                "Incluye <b>LIPOCAVITACIÓN</b> que degradará grasa a través de ondas ultrasónicas.",
+                "<b>TERMOELECTROFIT®</b> que estimulará a nivel muscular.",
+                "<b>LIPOMESOTERAPIA</b> que a través de sus activos ayudará a disminuir la adiposidad en los brazos.",
+                "Drenaje linfático que favorecerá la desintoxicación y pronta eliminación de lo degradado anteriormente.",
+                "Duración: <b>10 visitas de 1 hora</b> al spa, una semanal."
+            ],
+            "parrafos-final":[]
+        },
+        "gluteos-perfectos":{
+            "parrafos-inicio": [
+                "<b>Reafirma y tonifica tus glúteos con nuestro paquete.</b>"
+            ],
+            "preguntas-respuestas":[
+                {
+                    "pregunta": "¿Cuánto me aumentarán los glúteos?",
+                    "respuesta": "Este tratamiento tiene como principal objetivo fortalecer el músculo ya existente de tal manera que no aumenta, sólo mejora su aspecto y reafirma."
+                }
+            ],
+            "listado": [
+                "Incluye <b>TERMOELECTROFIT®</b> que mejorará la apariencia de la piel.",
+                "<b>RADIOFRECUENCIA LIFT®</b> que estimulará la producción de colágeno y tonificará.",
+                "<b>LIPOMESOTERAPIA</b> para glúteos que moldeará y fortalecerá el músculo.",
+                "Este tratamiento se realiza en <b>6 visitas al spa.</b>"
+                ],
+            "parrafos-final":[]
+        },
+        "criolipolisis":{
+            "parrafos-inicio": [
+                "Este aparato de última generación <b>actúa encapsulando el tejido graso</b> en su interior y disminuyendo la temperatura gradualmente mediante frío local controlado para que se produzca apoptosis de la células grasas, es decir, muerte celular."
+            ],
+            "preguntas-respuestas":[
+                {
+                    "pregunta": "¿Este tratamiento es doloroso?",
+                    "respuesta": "La criolipólisis no es dolorosa ya que genera ondas TENSE que adormecen la piel de tal forma que ya no sentirás molestias."
+                }
+            ],
+            "listado": [],
+            "parrafos-final":[]
+        },
+        "lipo-sin-cirugia":{
+            "parrafos-inicio": [
+                "<b>Este tratamiento tiene como objetivo</b> eliminar adiposidad a través de ondas ultrasónicas que transforman la grasa de estado sólido a líquido. Se elimina a través del sistema linfático."
+            ],
+            "preguntas-respuestas":[
+                {
+                    "pregunta": "¿Cómo saber qué paquete tomar?",
+                    "respuesta": "Es indispensable que acudas a una cita de diagnóstico para que nuestras terapeutas te evalúen y determinen qué aparatología sería la más adecuada para ti."
+                },
+                {
+                    "pregunta": "¿Cuál es el límite de peso para que puedan realizarte el tratamiento?",
+                    "respuesta": "Se puede realizar para eliminar grasa localizada o en casos de obesidad moderada."
+                },
+                {
+                    "pregunta": "¿Puedo seguir con mis actividades?",
+                    "respuesta": "Al ser una técnica que no requiere bisturí y no es invasiva, puedes continuar con tus actividades al terminar tu tratamiento."
+                }
+            ],
+            "listado": [
+                "Es una técnica no invasiva y se realiza con aparatología médico-cosmética.",
+                "Cada paquete es personalizado y se adapta de acuerdo a la estructura corporal del paciente, así como de sus objetivos.",
+                "La aparatología dependerá de lo que recomiende la terapeuta y pueden utilizarse <b>LIPOCAVITACIÓN, CARBOXTONIC®, PRESOTERAPIA DRENANTE y TERMOELECTROFIT®.</b>",
+                "Estos paquetes se realizan en <b>8 u 11 visitas</b> al spa, una por semana y con duración de 1 hora."
+            ],
+            "parrafos-final":[]
+        },
+        "post-natal":{
+            "parrafos-inicio": [
+                "Disfruta ser mamá y recupera tu cuerpo con este tratamiento que te ayudará a desinflamar, drenar y a recuperar la tonicidad de tu abdomen."
+            ],
+            "preguntas-respuestas":[
+                {
+                    "pregunta": "¿Se puede realizar durante la lactancia?",
+                    "respuesta": "Este tratamiento sí se puede realizar mientras estés amamantando, no te afecta ni a ti, ni al bebé."
+                },
+                {
+                    "pregunta": "¿Cuánto tiempo después del parto se puede comenzar?",
+                    "respuesta": "En caso de que haya sido parto natural, se puede realizar después de la cuarentena y si fue cesárea, el tiempo de espera recomendado es de tres meses."
+                }
+            ],
+            "listado": [
+                "Incluye <b>RADIOFRECUENCIA LIFT®</b> que ayudará a combatir la flacidez <b>TERMOELECTROFIT®</b> que reafirmará a nivel muscular, <b>PRESOTERAPIA DRENANTE</b> que promoverá el drenaje linfático y <b>NUTRICIÓN POSTNATAL</b> que ayudará a que mejorar tus hábitos alimenticios y reducir medidas.",
+                "Este tratamiento se realiza en <b>10 visitas de 1 hora</b> al spa, una por semana."
+            ],
+            "parrafos-final":[]
+        }
+    },
+    "masajes": {
+        "descontracturante":{
+            "parrafos-inicio": [
+                "Es uno de los más solicitados, se utiliza para desinflamar y aliviar la tensión en el músculo contracturado ocasionado por adoptar posturas inadecuadas para el cuerpo durante mucho tiempo."
+            ],
+            "preguntas-respuestas":[],
+            "listado": [
+                "Durante el masaje, el paciente sentirá un gran alivio y confort en las zonas más afectadas que por lo general son cuello, espalda, muslos y pantorrillas.",
+                "Se aplican diferentes técnicas y presión específica en la musculatura tensa para ayudar a recuperar su función y movilidad normal.",
+                "Disminuye la fatiga física, aumenta la circulación sanguínea y mejora la oxigenación muscular.",
+                "<b>Duración: 1 hora</b>"
+            ],
+            "parrafos-final":[]
+        },
+        "drenaje-linfatico":{
+            "parrafos-inicio": [
+                "Los beneficios de este masaje están probados en especial en el área de la cirugía estética, ya que <b>ayuda a movilizar la carga linfática y a desinflamar zonas con algún tipo de edemas.</b>"
+            ],
+            "preguntas-respuestas":[],
+            "listado": [
+                "Es un masaje suave con una presión ligera que se realiza en todo el cuerpo para desechar toxinas a través del sistema linfático.",
+                "<b>Duración: 1 hora</b>"
+            ],
+            "parrafos-final":[]
+        },
+        "sueco":{
+            "parrafos-inicio": [
+                "Este masaje se realiza con presión media y disminuye la tensión muscular en la espalda que es ocasionada por pasar muchas horas frente a una computadora, mala postura o debido al desgaste que se genera en actividades cotidianas."
+            ],
+            "preguntas-respuestas":[],
+            "listado": [
+                "En la espalda se utiliza presión media con el propósito de descontracturar y en brazos y piernas con una técnica de masaje relajante.",
+                "<b>Duración: 1 hora</b>"
+            ],
+            "parrafos-final":[]
+        },
+        "relajante":{
+            "parrafos-inicio": [
+                "El objetivo de este masaje es <b>relajar a nivel muscular y disminuir la ansiedad</b>, es altamente recomendable para personas que tienen una vida acelerada y con estrés constante. Cabe destacar que esta técnica se realiza con una presión mínima que ayudará al paciente a sentirse tranquilo durante el masaje.",
+                "Duración: <b>30 minutos o 1 hora</b>"
+            ],
+            "preguntas-respuestas":[],
+            "listado": [],
+            "parrafos-final":[]
+        }
+    },
+    "faciales": {
+        "lifting-facial":{
+            "parrafos-inicio": [
+                "Se realiza en 6 visitas de una hora al spa. Se comienza con una limpieza facial para preparar la piel, eliminar células muertas e hidratar para así aprovechar mejor los activos que se aplicarán en los siguientes faciales."
+            ],
+            "preguntas-respuestas":[],
+            "listado": [
+                "Para el tratamiento lifting se aplica <b>LASSER ULTRA SILK®</b> que ayuda a regenerar células.",
+                "<b>RADIOFRECUENCIA LIFT®</b> que estimula las fibras de colágeno y elastina dando a la piel una apariencia firme y tersa.",
+                "Finalmente se aplica <b>MESOTERAPIA VIRTUAL CON ÁCIDO HIALURÓNICO EFECTO LIFT con electroporador a -10°c</b> promoviendo la vasoconstricción para revitalizar y reafirmar la piel con un efecto tensor.",
+                "La mesoterapia se aplica de acuerdo a las necesidades de la piel y contamos con despigmentante, anti-edad e hidratante con ácido hialurónico."
+            ],
+            "parrafos-final":[]
+        },
+        "reductivo-de-papada":{
+            "parrafos-inicio": [
+                "Define contorno facial, disminuye y reafirma papada a través de este tratamiento que incluye:"
+            ],
+            "preguntas-respuestas":[],
+            "listado": [
+                "<b>CARBOXANTIAGE®</b> que son infiltraciones de dióxido de carbono.",
+                "<b>ELECTROFIT FACIAL®</b> que ayuda a reafirmar a nivel piel y músculo.",
+                "<b>RADIOFRECUENCIA LIFT®</b> que por medio de calor, ayuda a degradar adiposidad y al mismo tiempo reafirmar."
+            ],
+            "parrafos-final":[]
+        },
+        "despigmentante":{
+            "parrafos-inicio": [
+                "Este tratamiento <b>ayuda a equilibrar la melanina en la piel</b> y a regenerar celularmente."
+            ],
+            "preguntas-respuestas":[],
+            "listado": [
+                "A través de <b>HIDROFACIAL DIAMOND®, LASSER ULTRA SILK®, IPL FOTODESPIGMENTANTE,  CARBOXTONIC® y MESOTERAPIA DESPIGMENTANTE,</b> se atenuarán las hipercromias (manchas) en la piel."
+            ],
+            "parrafos-final":[]
+        },
+        "limpieza-facial":{
+            "parrafos-inicio": [
+                "Es un tratamiento que ayuda a <b>eliminar impurezas en la piel</b> (puntos negros, comedones e imperfecciones)."
+            ],
+            "preguntas-respuestas":[],
+            "listado": [
+                "Se comienza utilizando el vaporizador que ayudará a abrir los poros y facilitará la extracción.",
+                "Posteriormente se cauteriza la piel con alta frecuencia y se termina con ultrasonido que desinflama y drena la piel.",
+                "Para la limpieza facial utilizamos mascarillas y tónicos astringentes para mejorar el aspecto de la piel."
+            ],
+            "parrafos-final":[]
+        },
+        "cutis-graso":{
+            "parrafos-inicio": [
+                "Este tratamiento ayudará a equilibrar la producción de las glándulas sebáceas dando como resultado una piel más limpia y luminosa."
+            ],
+            "preguntas-respuestas":[],
+            "listado": [
+                "Se utiliza vapor con ozono que abrirá los poros del rostro, posteriormente y con <b>HIDROFACIAL DIAMOND®</b>, se eliminarán células muertas e impurezas dejando una mejor textura.",
+                "Después, se cauteriza con alta frecuencia y para finalizar se utilizan el <b>LASSER ULTRA SILK®</b> y <b>ELECTROFIT FACIAL®</b> a partir de los cuales regeneramos piel, hidratamos y reafirmamos."
+            ],
+            "parrafos-final":[]
+        }
+    },
+    "depilacion": {
+        "depilacion":{
+            "parrafos-inicio": [
+                "<b>La depilación se realiza a través de luz pulsada intensa (IPL) que es un método que involucra el uso de una lámpara zenon y de filtros.</b> Se aplica luz sobre la superficie de la piel y esta viaja a través de ella hasta que se absorbe por la raíz del vello y a medida que la luz se convierte en calor, la mayoría del vello se evaporizan en forma instantánea. Además, el calor irradiado destruye el folículo del vello.",
+                "Es necesario que se realicen mínimo 10 sesiones para que se elimine todo el vello. Tenemos distintos paquetes :"
+            ],
+            "preguntas-respuestas":[],
+            "listado": [
+                "Cuerpo completo",
+                "Bikini, piernas completas y axilas",
+                "Medias piernas, axilas y rostro completo",
+                "Medias piernas, bikini y bigote"
+            ],
+            "parrafos-final":[
+                "<b>Y también podemos personalizarte uno de acuerdo a las zonas que desees.</b>"
+            ]
+        }
+    },
+    "nutricion": {
+        "nutricion":{
+            "parrafos-inicio": [
+                "Dentro de la consulta de Nutrición, <b>se realiza en primera instancia una definición de los objetivos individuales con la subsecuente revisión y/o análisis para supervisar hábitos y conductas.</b>",
+                "Basándonos en las evaluaciones nutricionales individuales se esquematiza un plan de alimentación orientado a los objetivos específicos, este plan de alimentación se muestra con: "
+            ],
+            "preguntas-respuestas":[],
+            "listado": [
+                "Una lista de intercambio",
+                "Menú de ejemplo y dependiendo el caso una tabla de equivalentes"
+            ],
+            "parrafos-final":[
+                "La finalidad no es tener al paciente en una dieta sino darle las herramientas necesarias para alcanzar sus metas y que en el menor tiempo posible sea una persona con estrategias alimentarias independientes y saludables."
+            ]
+        }
+    }
+}

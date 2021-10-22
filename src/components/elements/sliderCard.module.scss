@@ -1,0 +1,111 @@
+@import '../../styles/mixin.scss';
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.nombre{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-size: 50px;
+    font-weight: normal;
+    color: $color-green;
+    b{
+        font-weight: 700;
+    }
+    @media (max-width: $lg){
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.parrafos-inicio{
+    p{
+        letter-spacing: 0.2px;
+        line-height: 1.25;
+        color: $color-dark;
+        margin-bottom: 2rem;
+    }
+    b{
+        font-weight: 700;
+    }
+}
+
+.listado{
+    padding-bottom: 2rem;
+    ul {
+        list-style: none;
+        li{
+            padding-bottom: 1rem;
+            color: $color-dark;
+        }
+        li::before {
+            content: "\2022";
+            color: $color-green;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    }
+    b{
+        font-weight: 700;
+    }
+}
+
+.preguntas{
+    .pregunta{
+        color: $color-green;
+        margin-bottom: 0;
+    }
+    .respuesta{
+        color: $color-dark;
+    }
+    ol{
+        list-style: none;
+        counter-reset: li;
+        li{
+            padding-bottom: 1rem;
+            color: $color-dark;
+            counter-increment: li;
+            color: $color-green;
+            p{
+                padding-top: 0.75rem;
+            }
+        }
+        li::before {
+            content: counter(li);
+            color: $color-green;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1.5em;
+            margin-right: 0.5em;
+            text-align: right;
+            direction: rtl;
+        }
+    }
+    b{
+        font-weight: 700;
+    }
+}
+.parrafos-inicio{
+    p{
+        letter-spacing: 0.2px;
+        line-height: 1.25;
+        color: $color-dark;
+    }
+    b{
+        font-weight: 700;
+    }
+}

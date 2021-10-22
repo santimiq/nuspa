@@ -1,0 +1,114 @@
+@import '../styles/mixin.scss';
+
+.container-titulo{
+    top: 20%;
+    left: 10%;
+    color: $color-green;
+}
+
+.width-tercio{
+    width: 33%;
+    padding: 1rem;
+}
+
+.width-doble-tercio{
+    width: 66%;
+    padding: 1rem;
+}
+
+.tabs{
+    border: 0px;
+    a{
+        transition: all 0.5s;
+        &:hover{
+            border: 0;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+}
+.active-tab{
+    border: 0;
+    display: flex;
+    justify-content: center;
+    p{
+        color: $color-green;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    
+}
+
+.active-line{
+        
+    height: 2px;
+    background-color: $color-green;
+    width: 75%;
+    margin: auto;
+    margin-top: 0.5rem;
+
+}
+.inactive-tab{
+    border: 0;
+    display: flex;
+    justify-content: center;
+    p{
+        color: $color-dark;
+    }
+    
+}
+.inactive-line{
+    height: 2px;
+    background-color: transparent;
+    width: 75%;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+@include for-tablet {
+    .paquetes-img{
+        height: 80vh !important;
+        object-fit: cover !important;
+    }
+    .container-titulo{
+        top: auto !important;
+        bottom: 0 !important;
+        left: 15% !important;
+        color: $color-green;
+        h1{
+            font-size: 50px!important;
+        }
+        h2{
+            font-size: 30px!important;
+        }
+    }
+    .width-tercio{
+        width: 100% !important;
+        padding: 1rem;
+    }
+    
+    .width-doble-tercio{
+        width: 100% !important;
+        padding: 1rem;
+    }
+    .tabs{
+        .inactive-tab{
+            display: none;
+            position: relative;
+        }
+        .active-tab{
+            position: relative;
+        }
+        .prev-image{
+            position: absolute;
+            left: 5%;
+            top: 30%;
+            bottom: 0;
+        }
+        .next-image{
+            position: absolute;
+            right: 5%;
+            top: 30%;
+            bottom: 0;
+        }
+    }
+}

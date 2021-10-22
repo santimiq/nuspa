@@ -1,0 +1,45 @@
+//variables
+@import "~rfs/scss";
+
+$container-width: 100%;
+$color-dark: #070606;
+$color-green: #30bbad;
+$color-white: #ffffff;
+$xs: 575.98px;
+$sm: 767.98px;
+$md: 991.98px;
+$lg: 1199.98px;
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    line-height: 22px;
+    margin: 0px;
+    color: $color-dark;
+}
+
+@font-face {
+    font-family: 'DM Sans', sans-serif;
+    @import url('https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap');
+}
+
+.line{
+    height: 2px;
+    padding-right: 8rem;
+    background-color: $color-green;
+}
+
+h1{
+    @include font-size(30px);
+}
+h2{
+    @include font-size(20px);
+}
+
+.container-titulo{
+    h1{
+        @include font-size(40px);
+    }
+    h2{
+        @include font-size(25px);
+    }
+}

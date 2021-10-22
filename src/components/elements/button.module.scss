@@ -1,0 +1,48 @@
+@import './../../styles/mixin.scss';
+
+.white{
+    color: $color-white;
+    border: 1px solid $color-white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    transition: 0.5s all;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    @include font-size(13px);
+    &:hover{
+        text-decoration: none!important;
+        background-color: $color-white;
+        color: $color-green;
+    }
+}
+
+.green{
+    color: $color-green;
+    border: 1px solid $color-green;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    transition: 0.5s all;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    @include font-size(13px);
+    &.button{
+        background-color: transparent;
+    }
+    &.disabled{
+        background-color: transparent;
+        cursor: not-allowed;
+        color: $color-green;
+        border: 1px solid $color-green;
+    }
+    &:hover{
+        text-decoration: none!important;
+        background-color: $color-green;
+        color: $color-white;
+        border: 1px solid $color-green;
+    }
+}
+

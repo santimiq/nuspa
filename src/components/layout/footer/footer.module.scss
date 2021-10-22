@@ -1,0 +1,30 @@
+@import '../../../styles/mixin.scss';
+
+.footer-container{
+    border-top: solid white 0.1px;
+    background-color: $color-green;
+    a{
+        text-decoration: none;
+        transition: all 0.5s;
+        &:hover{
+            cursor: pointer;
+            letter-spacing: 0.2px;
+            font-weight: bold;
+        }
+    }
+    @media (max-width: $md){
+        padding-bottom: 90px;
+    }
+    .powered{
+        color: rgba(255,255,255, 1)!important;
+        a{
+            color: rgba(255,255,255, 0.5)!important;
+            &:hover{
+                color: rgba(255,255,255, 1)!important;
+                cursor: pointer;
+                font-weight: bold;
+                letter-spacing: 0px!important;
+            }
+        }
+    }
+}

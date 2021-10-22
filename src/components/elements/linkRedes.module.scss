@@ -1,0 +1,18 @@
+@import '../../styles/global.scss';
+
+.border-right{
+    border-right: solid $color-green 2px;
+    border-radius: 0px;
+}
+
+.redes-link{
+    transition: all 0.5s;
+    img{
+        transition: all 0.5s;
+    }
+    &:hover{
+        img{
+            height: 33px;
+        }
+    }
+}

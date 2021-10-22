@@ -1,0 +1,39 @@
+@import '../../styles/mixin.scss';
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.text-slider{
+    top: 40%;
+    left: 10%;
+    color: $color-green;
+}
+@include for-tablet {
+    .text-slider{
+        top: auto !important;
+        bottom: 0% !important;
+        left: 10% !important;
+        h2{
+            font-size: 30px !important;
+        }
+        h1{
+            font-size: 50px !important;
+        }
+    }
+    .sliderImg{
+        height: 70vh !important;
+        object-fit: cover !important;
+    }
+}

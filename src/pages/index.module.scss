@@ -1,0 +1,161 @@
+@import './../styles/global';
+
+.text-title{
+    font-weight: bold;
+    letter-spacing: 9px;
+    color: $color-green;
+    @include font-size(30px);
+    @media (max-width: $md){
+        letter-spacing: 5px;
+    }
+}
+
+.text-subtitle{
+    font-weight: bold;
+    letter-spacing: 7px;
+    color: $color-green;
+}
+
+.text-title-white{
+    font-weight: bold;
+    letter-spacing: 9px;
+    color: $color-white;
+    @include font-size(30px);
+    @media (max-width: $md){
+        letter-spacing: 5px;
+    }
+}
+
+.text-general{
+    letter-spacing: 1.38px;
+    color: $color-dark;
+    @include font-size(16px);
+    @media (max-width: $md){
+        letter-spacing: 1px;
+    }
+}
+
+.text-general-white{
+    letter-spacing: 1.38px;
+    color: $color-white;
+    @include font-size(16px);
+    @media (max-width: $md){
+        letter-spacing: 1px;
+    }
+}
+
+.card{
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px $color-white;
+}
+
+.container-paquetes{
+    img{
+        width: 100%;
+        @media (max-width: $md){
+            width: 90%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+}
+.card-overlay{
+    position: absolute;
+    bottom: -10%;
+    right: -5%;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px $color-white;
+    background-color: $color-white;
+    @media (max-width: $md){
+        bottom: -40%;
+        width: 75%;
+        right: 0%;
+        left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+}
+
+.bg-blue{
+    background-color: $color-green;
+    margin: auto;
+    width: 90%;
+}
+
+.caption-service{
+    bottom: 5%;
+    left: 0;
+    background-color: $color-white;
+    width: 85%;
+    span{
+        color: $color-dark;
+        letter-spacing: 1.5px;
+        font-size: 12px;
+    }
+    .underlineCaption{
+        width: 0;
+        height: 0;
+    }
+}
+
+.container-preview-service{
+    transition: all 0.2s;
+    &:hover{
+        .underlineCaption{
+            width: 70%;
+            height: 2px;
+            background-color: $color-green;
+            transition: all 0.2s;
+        }
+    }
+}
+
+.isotipo-absoluto{
+    right: 8%;
+    top: 40%;
+}
+
+.nosotros-container{
+    width: 60%;
+    @media (max-width: $lg){
+        width: 75%!important;
+    }
+    @media (max-width: $md){
+        width: 90%!important;
+    }
+}
+
+.nosotros-text-contaniner{
+    width: 100%!important;
+    @media (max-width: $lg){
+        width: 100%!important;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+.text-banner-responsive{
+    top: 20vh;
+    left: 5vw;
+    p{
+        @include font-size(30px);
+        color: $color-white;
+        line-height: 35px;
+        font-family: 'DM Sans', sans-serif;
+    }
+}
+
+.explora-responsive{
+    bottom: 10vh;
+    text-align: center;
+    left: 0;
+    right: 0;
+    p{
+        @include font-size(15px);
+        color: $color-white;
+        line-height: 20px;
+        font-family: 'DM Sans', sans-serif;
+    }
+}

@@ -1,0 +1,35 @@
+@import './../../styles/mixin.scss';
+
+
+.caption-service{
+    bottom: 5%;
+    left: 0;
+    background-color: $color-white;
+    width: 85%;
+    span{
+        color: $color-dark;
+        letter-spacing: 1.5px;
+        font-size: 12px;
+    }
+    .underlineCaption{
+        width: 0;
+        height: 0;
+    }
+}
+
+.container-preview-service{
+    transition: all 0.2s;
+    @media (max-width: $lg){
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    &:hover{
+        .underlineCaption{
+            width: 70%;
+            height: 2px;
+            background-color: $color-green;
+            transition: all 0.2s;
+        }
+    }
+}

@@ -1,0 +1,130 @@
+@import './../../styles/mixin.scss';
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.carousel-control-prev {
+    width: auto;
+    top: unset;
+    bottom: unset;
+    top: 20px;
+    right: -1.5rem;
+    left: unset;
+
+    .carousel-control-prev-icon {
+        background-image: url('/images/icons/flecha-arriba.svg') !important;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.carousel-control-next {
+    width: auto;
+    top: unset;
+    bottom: 20px;
+    right: -1.5rem;
+    left: unset;
+
+    .carousel-control-next-icon {
+        background-image: url('/images/icons/flecha-abajo.svg') !important;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.carousel-indicators {
+    right: -0.8rem;
+    left: unset;
+    top: calc(50% - 5rem);
+    bottom: unset;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    display: block;
+    @media (max-width: $lg){
+        margin-bottom: 0;
+        margin-right: auto; 
+        margin-left: auto; 
+        display: flex;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: -2rem;
+        top: unset;
+    }
+    li {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        padding: 0;
+        border: 1px solid $color-green;
+        margin: 10px 0;
+        &.active {
+            background-color: $color-green;
+        }
+        @media (max-width: $lg){
+            margin: 0px 5px;
+            &.active {
+                background-color: $color-white;
+            }
+        }
+    }
+}
+
+
+.carousel-item {
+    opacity: 0;
+    transition-property: opacity;
+    transform: none;
+}
+
+.carousel-item.active,
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right {
+    z-index: 1;
+    opacity: 1;
+}
+
+.active.carousel-item-left,
+.active.carousel-item-right {
+    z-index: 0;
+    opacity: 0;
+    transition: 0.3s opacity;
+}
+@include for-tablet {
+    .carousel-control-prev{
+        display: none !important;
+    }
+    .carousel-control-next{
+        display: none !important;
+    }
+    .sliderImg{
+        height: 70vh !important;
+        object-fit: cover !important;
+    }
+    .text-item{
+        h1, h2, p, li{
+            text-align: center;
+        }
+        ol{
+            padding-inline-start: 0px!important;
+        }
+        ul{
+            padding-inline-start: 0px!important;
+        }
+    }
+}
+

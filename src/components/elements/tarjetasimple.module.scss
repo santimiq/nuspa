@@ -1,0 +1,32 @@
+@import '../../styles/mixin.scss';
+
+.green-line{
+    background-color: $color-green;
+    height: 15px;
+    width: 100%;
+}
+
+.card-masonry{
+    width: 30%;
+    margin: 1%;
+}
+
+.title-masonry{
+    @include font-size(20px);
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: center;
+    color: $color-green;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+
+.text-masonry{
+    @include font-size(15px);
+    line-height: 1.47;
+    letter-spacing: 0.17px;
+    text-align: center;
+    color: $color-dark;
+}

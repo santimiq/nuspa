@@ -1,0 +1,28 @@
+@import '../styles/mixin.scss';
+
+.container-titulo{
+    bottom: 5%;
+    left: 5%;
+    color: $color-green;
+}
+
+@include for-tablet {
+    .container-titulo{
+        top: 8% !important;
+    }
+    .img-servicios{
+        height: 85vh !important;
+        object-fit: cover !important;
+    }
+    .tarjeta-module--text-general--2bInu {
+        display: none !important
+    }
+    .button-module--green--1AcHg {
+        display: none !important;
+    }
+    .cards{
+        padding-left: 5%;
+        padding-top: 5%;
+        background: white;
+    }
+}

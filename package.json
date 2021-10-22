@@ -1,0 +1,48 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "gatsby": "^2.18.4",
+    "gatsby-plugin-glamor": "^2.1.15",
+    "gatsby-plugin-google-tagmanager": "^2.1.18",
+    "gatsby-plugin-react-helmet": "^3.1.16",
+    "gatsby-plugin-sass": "^2.1.20",
+    "gatsby-remark-lazy-load": "^1.0.2",
+    "glamor": "^2.20.40",
+    "lazysizes": "^5.2.0-beta1",
+    "node-sass": "^4.13.0",
+    "nuka-carousel": "^4.5.13",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
+    "react-html-parser": "^2.0.2",
+    "react-masonry-component": "^6.2.1",
+    "react-ripples": "^2.2.1",
+    "reactstrap": "^8.1.1",
+    "rfs": "^9.0.2",
+    "smooth-scroll": "^16.1.0",
+    "sweetalert2": "^9.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

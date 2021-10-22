@@ -1,0 +1,46 @@
+@import '../../styles/mixin.scss';
+
+
+.text-title{
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: $color-green;
+    @include font-size(18px);
+}
+.text-general{
+    letter-spacing: 0.25px;
+    color: $color-dark;
+    font-size: 13px;
+}
+
+.card{
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px $color-white;
+}
+
+.absolute-text{
+    bottom: 5%;
+    left: 5%;
+}
+
+.text-image{
+    bottom: 10%;
+    left: 0;
+    p{
+        background-color: $color-white;
+        color: $color-green;
+    }
+    .green-line{
+        width: 25%;
+        margin-left: 10%;
+        margin-top: 1rem;
+        height: 2px;
+        background-color: $color-green;
+    }
+}
+
+@include for-tablet {
+    .rightCard{
+        flex-direction: column-reverse;
+    }
+}
