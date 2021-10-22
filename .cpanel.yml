@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/au5dcrb6kbof/public_html/nuspa.com.mx/
+    - /bin/cp -R public/* $DEPLOYPATH
